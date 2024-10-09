@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <img src="youtube.svg" alt="Logo" class="youtube-logo">
+                <div class="search-bar">
+                    <input type="text" placeholder="Пошук">
+                    <button type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <nav class="menu">
+                <ul>
+                    <li class="active"><a href="#">
+                        <i class="fas fa-home"></i>
+                        Головна
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-video"></i>
+                        Shorts
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-bell"></i>
+                        Підписки
+                    </a></li>
+                    <hr>
+                </ul>
+            </nav>
+
+            <nav class="menu">
+                <div class="menu-header">
+                    <span>Ви</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul>
+                    <li><a href="#">
+                        <i class="fas fa-user"></i>
+                        Ваш канал
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-history"></i>
+                        Історія
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-play-circle"></i>
+                        Ваші відео
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-clock"></i>
+                        Переглянути пізніше
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-download"></i>
+                        Завантаження
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-ellipsis-h"></i>
+                        Показати більше
+                    </a></li>
+                </ul>
+            </nav>
+            <hr>
+            <nav class="menu">
+                <div class="menu-header">
+                    <span>Підписки</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul>
+                    <li><a href="#">
+                        <i class="fas fa-user-friends"></i>
+                        Канал
+                    </a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main">
+            <nav class="tabs">
+                <ul>
+                    <li class="active"><a href="#">Усі</a></li>
+                    <li><a href="#">Ігри</a></li>
+                    <li><a href="#">Музика</a></li>
+                    <li><a href="#">Пряма трансляція</a></li>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Пригодницький бойовик</a></li>
+                    <li><a href="#">Образотворчі мистецтва</a></li>
+                    <li><a href="#">Мультфільми</a></li>
+                    <li><a href="#">Нещодавні завантаження</a></li>
+                    <li><a href="#">Ви дивилися</a></li>
+                </ul>
+            </nav>
+            <div class="video-grid">
+                <div class="video-card">
+                    <img src="video1.jpg" alt="video1">
+                    <div class="video-info">
+                        <div class="video-title">
+                            <h2>Видео1</h2>
+                        </div>
+                        <div class="video-channel">
+                            <span>Канал</span>
+                        </div>
+                        <div class="video-stats">
+                            <span>108 тис. переглядів</span>
+                            <span>•</span>
+                            <span>1 місяць тому</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <img src="video2.jpg" alt="video2">
+                    <div class="video-info">
+                        <div class="video-title">
+                            <h2>Видео2</h2>
+                        </div>
+                        <div class="video-channel">
+                            <span>Канал 2</span>
+                        </div>
+                        <div class="video-stats">
+                            <span>50 тис. переглядів</span>
+                            <span>•</span>
+                            <span>3 тижні тому</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
